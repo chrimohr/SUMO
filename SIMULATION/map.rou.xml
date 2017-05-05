@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <routes>
 
-    <vType vClass="car" 	accel="1.0"  decel="5.0"  id="Car"  length="3.0" maxSpeed="100.0" sigma="0.0" />
+    <vType vClass="car" 	accel="1.0"  decel="1.4"  id="Car"  length="3.0" maxSpeed="10.0" sigma="0.0" />
     <vType vClass="bicycle" accel="0.1"  decel="2.0"  id="Bike" length="1.0" maxSpeed="5.0" 	sigma="0.0" />
 
 	<flows>
