@@ -1,0 +1,19 @@
+An der Alster SW > An der Alster NO
+29050
+
+An der Alster NO > An der Alster SW
+34800
+
+Lombardsbrücke > Kennedybrücke
+8996
+
+Kennedybrücke > Lombardsbrücke
+18804
+
+Alsterglacis > Ferdinandstor
+Route AB
+21344     890/h
+
+Ferdinandstor > Alsterglacis
+Route BA
+27345     1140/h
