@@ -17,9 +17,10 @@
     <flow id="CA" type="Car"  from="-340675955" to="-142692918" begin="0.00" period="5" color="0,1,0"/>
     <flow id="CB" type="Car"  from="-340675955" to="gneE24.0"   begin="0.00" period="5" color="0,1,0"/>
 
-
-    <flow id="Biker" type="Bike" from="gneE50"  to="gneE54.12"   begin="0.00" period="20" color="1,1,1"/>
-
+<!--
+    <flow id="Biker"  type="Bike" from="gneE50"  to="gneE54.12" begin="0.00" period="20" color="1,1,1"/>
+    <flow id="Biker2" type="Bike" from="gneE50"  to="gneE72"    begin="0.00" period="20" color="1,1,1"/>
+-->
 
 	</flows>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Do 04 Mai 2017 11:48:16 CEST by Netedit Version 0.29.0
+<!-- generated on Fr 05 Mai 2017 08:50:14 CEST by Netedit Version 0.29.0
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netedit.exeConfiguration.xsd">
@@ -19,6 +19,10 @@
         <lefthand value="false"/>
         <junctions.corner-detail value="0"/>
     </processing>
+
+    <visualisation>
+        <registry-viewport value="true"/>
+    </visualisation>
 
 </configuration>
 -->
@@ -139,10 +143,10 @@
         <lane id=":154_4_0" index="0" allow="bicycle" speed="13.89" length="19.95" shape="970.53,649.61 976.69,648.22 981.43,646.10 984.73,643.23 986.62,639.63"/>
     </edge>
     <edge id=":154_5" function="internal">
-        <lane id=":154_5_0" index="0" speed="13.90" length="14.96" shape="973.62,652.78 980.11,649.39 985.30,647.35 989.19,646.66 991.79,647.31"/>
-        <lane id=":154_5_1" index="1" speed="13.90" length="14.96" shape="973.62,652.78 978.79,650.25 983.24,648.94 986.95,648.87 989.93,650.04"/>
-        <lane id=":154_5_2" index="2" speed="13.90" length="14.96" shape="975.47,655.52 979.66,653.42 983.16,652.25 985.96,652.04 988.07,652.77"/>
-        <lane id=":154_5_3" index="3" speed="13.90" length="14.96" shape="977.32,658.27 980.53,656.59 983.08,655.56 984.97,655.20 986.22,655.50"/>
+        <lane id=":154_5_0" index="0" speed="13.90" length="14.57" shape="973.62,652.78 980.11,649.39 985.30,647.35 989.19,646.66 991.79,647.31"/>
+        <lane id=":154_5_1" index="1" speed="13.90" length="14.57" shape="975.47,655.52 980.97,652.56 985.22,650.66 988.20,649.82 989.93,650.04"/>
+        <lane id=":154_5_2" index="2" speed="13.90" length="14.57" shape="975.47,655.52 979.66,653.42 983.16,652.25 985.96,652.04 988.07,652.77"/>
+        <lane id=":154_5_3" index="3" speed="13.90" length="14.57" shape="977.32,658.27 980.53,656.59 983.08,655.56 984.97,655.20 986.22,655.50"/>
     </edge>
     <edge id=":164_0" function="internal">
         <lane id=":164_0_0" index="0" speed="13.90" length="13.38" shape="908.33,686.18 913.45,684.70 917.07,683.24 919.21,681.80 919.86,680.37"/>
@@ -1931,10 +1935,10 @@
     </edge>
 
     <tlLogic id="154" type="static" programID="0" offset="0">
-        <phase duration="35" state="rrrrGGGGG"/>
-        <phase duration="2" state="rrrryyyyy"/>
-        <phase duration="16" state="GGGGrrrrr"/>
-        <phase duration="2" state="yyyyrrrrr"/>
+        <phase duration="41" state="rrrrGGGGG"/>
+        <phase duration="4" state="rrrryyyyy"/>
+        <phase duration="41" state="GGGGrrrrr"/>
+        <phase duration="4" state="yyyyrrrrr"/>
     </tlLogic>
     <tlLogic id="39" type="static" programID="0" offset="0">
         <phase duration="11" state="GGGGrrrr"/>
@@ -2713,7 +2717,7 @@
     <connection from="158491026" to="gneE24.0" fromLane="2" toLane="3" via=":311_0_3" dir="s" state="M"/>
     <connection from="158491026" to="gneE24.0" fromLane="2" toLane="4" via=":311_0_4" dir="s" state="M"/>
     <connection from="186282281" to="40016270" fromLane="0" toLane="0" via=":154_5_0" tl="154" linkIndex="5" dir="l" state="o"/>
-    <connection from="186282281" to="40016270" fromLane="0" toLane="1" via=":154_5_1" tl="154" linkIndex="6" dir="l" state="o"/>
+    <connection from="186282281" to="40016270" fromLane="1" toLane="1" via=":154_5_1" tl="154" linkIndex="6" dir="l" state="o"/>
     <connection from="186282281" to="40016270" fromLane="1" toLane="2" via=":154_5_2" tl="154" linkIndex="7" dir="l" state="o"/>
     <connection from="186282281" to="40016270" fromLane="2" toLane="3" via=":154_5_3" tl="154" linkIndex="8" dir="l" state="o"/>
     <connection from="186624430" to="51201766" fromLane="0" toLane="0" via=":53_0_0" dir="r" state="M"/>
