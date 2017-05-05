@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Fr 05 Mai 2017 08:50:14 CEST by Netedit Version 0.29.0
+<!-- generated on Fr 05 Mai 2017 09:21:55 CEST by Netedit Version 0.29.0
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netedit.exeConfiguration.xsd">
@@ -372,9 +372,9 @@
         <lane id=":38_0_2" index="2" speed="13.90" length="12.26" shape="1007.89,666.26 1010.96,668.43 1013.03,669.96 1015.18,671.37 1018.45,673.18"/>
     </edge>
     <edge id=":38_3" function="internal">
-        <lane id=":38_3_0" index="0" speed="13.89" length="9.98" shape="1007.89,666.26 1010.83,668.55 1012.98,670.85 1014.33,673.17 1014.89,675.51"/>
-        <lane id=":38_3_1" index="1" speed="13.89" length="9.98" shape="1007.89,666.26 1009.32,667.67 1010.42,669.72 1011.18,672.41 1011.60,675.73"/>
-        <lane id=":38_3_2" index="2" speed="13.89" length="9.98" shape="1006.03,668.99 1006.88,669.91 1007.54,671.37 1008.02,673.39 1008.30,675.96"/>
+        <lane id=":38_3_0" index="0" speed="13.89" length="9.49" shape="1007.89,666.26 1010.83,668.55 1012.98,670.85 1014.33,673.17 1014.89,675.51"/>
+        <lane id=":38_3_1" index="1" speed="13.89" length="9.49" shape="1006.03,668.99 1008.39,670.78 1010.10,672.50 1011.17,674.15 1011.60,675.73"/>
+        <lane id=":38_3_2" index="2" speed="13.89" length="9.49" shape="1006.03,668.99 1006.88,669.91 1007.54,671.37 1008.02,673.39 1008.30,675.96"/>
     </edge>
     <edge id=":39_0" function="internal">
         <lane id=":39_0_0" index="0" allow="bicycle" speed="13.89" length="11.17" shape="1055.43,681.37 1055.15,682.66 1056.15,684.45 1058.45,686.75 1062.03,689.56"/>
@@ -2844,7 +2844,7 @@
     <connection from="40016270" to="8286112" fromLane="1" toLane="1" via=":38_0_1" dir="s" state="M"/>
     <connection from="40016270" to="8286112" fromLane="2" toLane="2" via=":38_0_2" dir="s" state="M"/>
     <connection from="40016270" to="gneE1" fromLane="2" toLane="0" via=":38_3_0" dir="l" state="M"/>
-    <connection from="40016270" to="gneE1" fromLane="2" toLane="1" via=":38_3_1" dir="l" state="M"/>
+    <connection from="40016270" to="gneE1" fromLane="3" toLane="1" via=":38_3_1" dir="l" state="M"/>
     <connection from="40016270" to="gneE1" fromLane="3" toLane="2" via=":38_3_2" dir="l" state="M"/>
     <connection from="4005352" to="142692911.303" fromLane="0" toLane="0" via=":gneJ75_0_0" dir="r" state="M"/>
     <connection from="40129888" to="24232613" fromLane="0" toLane="0" via=":92_0_0" dir="r" state="M"/>
