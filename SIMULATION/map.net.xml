@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Fr 12 Mai 2017 09:53:43 CEST by Netedit Version 0.29.0
+<!-- generated on Fr 12 Mai 2017 10:07:49 CEST by Netedit Version 0.29.0
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netedit.exeConfiguration.xsd">
@@ -1936,12 +1936,15 @@
         <phase duration="4" state="yyyyrrrrr"/>
     </tlLogic>
     <tlLogic id="39" type="static" programID="0" offset="0">
-        <phase duration="36" state="GGGrgggG"/>
-        <phase duration="4" state="yyyrgggy"/>
-        <phase duration="6" state="rrrrGGGr"/>
-        <phase duration="4" state="rrrryyyr"/>
-        <phase duration="36" state="rrrGGGGG"/>
-        <phase duration="4" state="rrryyyyy"/>
+        <phase duration="2" state="rrrgrrrr"/>
+        <phase duration="8" state="rrrrrrrr"/>
+        <phase duration="12" state="gggrrrrr"/>
+        <phase duration="3" state="yyyrrrrr"/>
+        <phase duration="2" state="rrrrrrrr"/>
+        <phase duration="2" state="rrrgrrrr"/>
+        <phase duration="56" state="rrrggggg"/>
+        <phase duration="3" state="rrrgYYYY"/>
+        <phase duration="2" state="rrrgrrrr"/>
     </tlLogic>
     <tlLogic id="479" type="static" programID="0" offset="0">
         <phase duration="86" state="GGGG"/>
