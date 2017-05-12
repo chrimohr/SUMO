@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Fr 12 Mai 2017 09:45:59 CEST by Netedit Version 0.29.0
+<!-- generated on Fr 12 Mai 2017 09:53:43 CEST by Netedit Version 0.29.0
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netedit.exeConfiguration.xsd">
@@ -1968,10 +1968,10 @@
         <phase duration="62" state="ggr"/>
     </tlLogic>
     <tlLogic id="gneJ5" type="static" programID="0" offset="0">
-        <phase duration="53" state="GGGrrr"/>
-        <phase duration="4" state="yyyrrr"/>
-        <phase duration="53" state="rrrGGG"/>
-        <phase duration="4" state="rrryyy"/>
+        <phase duration="29" state="rrrrOOO"/>
+        <phase duration="56" state="ggggOOO"/>
+        <phase duration="3" state="yyyyOOO"/>
+        <phase duration="2" state="rrrrOOO"/>
     </tlLogic>
 
     <junction id="0" type="unregulated" x="1947.00" y="1481.30" incLanes="" intLanes="" shape="1943.81,1473.42 1941.12,1475.15 1940.65,1475.64 1939.01,1478.39"/>
@@ -2903,9 +2903,9 @@
     <connection from="gneE18" to="gneE19" fromLane="2" toLane="2" via=":gneJ35_27_2" dir="s" state="M"/>
     <connection from="gneE18" to="gneE19" fromLane="3" toLane="3" via=":gneJ35_27_3" dir="s" state="M"/>
     <connection from="gneE18" to="gneE23.0" fromLane="3" toLane="1" via=":gneJ35_31_0" dir="l" state="M"/>
-    <connection from="gneE2" to="gneE4" fromLane="0" toLane="1" via=":gneJ5_4_0" dir="l" state="m"/>
-    <connection from="gneE2" to="gneE4" fromLane="1" toLane="2" via=":gneJ5_4_1" dir="l" state="m"/>
-    <connection from="gneE2" to="gneE4" fromLane="2" toLane="3" via=":gneJ5_4_2" dir="l" state="m"/>
+    <connection from="gneE2" to="gneE4" fromLane="0" toLane="1" via=":gneJ5_4_0" tl="gneJ5" linkIndex="4" dir="l" state="o"/>
+    <connection from="gneE2" to="gneE4" fromLane="1" toLane="2" via=":gneJ5_4_1" tl="gneJ5" linkIndex="5" dir="l" state="o"/>
+    <connection from="gneE2" to="gneE4" fromLane="2" toLane="3" via=":gneJ5_4_2" tl="gneJ5" linkIndex="6" dir="l" state="o"/>
     <connection from="gneE20.0" to="gneE29.0" fromLane="0" toLane="0" via=":gneJ51_0_0" dir="r" state="M"/>
     <connection from="gneE20.0" to="gneE20.54" fromLane="0" toLane="0" via=":gneJ51_1_0" dir="s" state="M"/>
     <connection from="gneE20.0" to="gneE20.54" fromLane="1" toLane="1" via=":gneJ51_1_1" dir="s" state="M"/>
@@ -2947,7 +2947,7 @@
     <connection from="gneE3" to="gneE4" fromLane="0" toLane="0" via=":gneJ5_0_0" tl="gneJ5" linkIndex="0" dir="s" state="o"/>
     <connection from="gneE3" to="gneE4" fromLane="1" toLane="1" via=":gneJ5_0_1" tl="gneJ5" linkIndex="1" dir="s" state="o"/>
     <connection from="gneE3" to="gneE4" fromLane="2" toLane="2" via=":gneJ5_0_2" tl="gneJ5" linkIndex="2" dir="s" state="o"/>
-    <connection from="gneE3" to="gneE4" fromLane="3" toLane="3" via=":gneJ5_0_3" dir="s" state="M"/>
+    <connection from="gneE3" to="gneE4" fromLane="3" toLane="3" via=":gneJ5_0_3" tl="gneJ5" linkIndex="3" dir="s" state="o"/>
     <connection from="gneE30" to="186713427" fromLane="0" toLane="0" via=":401_0_0" dir="r" state="m"/>
     <connection from="gneE34" to="gneE37.0" fromLane="0" toLane="0" via=":gneJ61_0_0" dir="r" state="m"/>
     <connection from="gneE34" to="gneE37.0" fromLane="1" toLane="1" via=":gneJ61_0_1" dir="r" state="m"/>
