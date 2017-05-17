@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Sa 13 Mai 2017 07:12:19 CEST by Netedit Version 0.29.0
+<!-- generated on Mi 17 Mai 2017 19:41:33 CEST by Netedit Version 0.29.0
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netedit.exeConfiguration.xsd">
@@ -566,7 +566,7 @@
         <lane id=":72_9_0" index="0" speed="13.90" length="3.37" shape="958.77,674.46 958.53,673.80 958.84,672.69 959.85,671.56"/>
     </edge>
     <edge id=":72_4" function="internal">
-        <lane id=":72_4_0" index="0" allow="bicycle" speed="13.89" length="13.81" width="2.00" shape="938.01,671.14 948.15,661.77"/>
+        <lane id=":72_4_0" index="0" allow="bicycle" speed="13.89" length="13.81" width="2.00" shape="938.02,671.14 948.15,661.77"/>
     </edge>
     <edge id=":72_5" function="internal">
         <lane id=":72_5_0" index="0" speed="13.90" length="26.32" shape="933.64,678.85 940.59,675.94 945.34,673.82 949.73,671.13 955.62,666.50"/>
@@ -574,7 +574,7 @@
         <lane id=":72_5_2" index="2" speed="13.90" length="26.32" shape="936.28,684.90 943.74,681.76 948.83,679.46 953.53,676.55 959.85,671.56"/>
     </edge>
     <edge id=":72_8" function="internal">
-        <lane id=":72_8_0" index="0" allow="bicycle" speed="13.89" length="15.14" width="2.00" shape="940.13,688.10 937.53,673.18"/>
+        <lane id=":72_8_0" index="0" allow="bicycle" speed="13.89" length="15.13" width="2.00" shape="940.13,688.10 937.54,673.19"/>
     </edge>
     <edge id=":73_0" function="internal">
         <lane id=":73_0_0" index="0" speed="13.90" length="8.20" shape="924.77,654.02 922.91,652.28 921.63,651.10 920.41,649.86 918.74,647.95"/>
@@ -820,10 +820,10 @@
         <lane id=":gneJ158_2_0" index="0" speed="13.89" length="3.79" width="2.00" shape="988.25,636.51 988.53,635.87 989.25,635.29 990.14,635.35 991.20,636.06"/>
     </edge>
     <edge id=":gneJ164_0" function="internal">
-        <lane id=":gneJ164_0_0" index="0" allow="bicycle" speed="13.89" length="1.72" width="2.00" shape="936.52,672.94 936.02,672.82 935.69,672.73 935.36,672.60 934.89,672.41"/>
+        <lane id=":gneJ164_0_0" index="0" allow="bicycle" speed="13.89" length="1.71" width="2.00" shape="936.51,672.95 936.02,672.83 935.69,672.73 935.36,672.61 934.90,672.41"/>
     </edge>
     <edge id=":gneJ164_1" function="internal">
-        <lane id=":gneJ164_1_0" index="0" allow="bicycle" speed="13.89" length="3.07" width="2.00" shape="936.52,672.94 935.87,672.25 935.74,671.68 936.11,671.23 937.00,670.90"/>
+        <lane id=":gneJ164_1_0" index="0" allow="bicycle" speed="13.89" length="3.07" width="2.00" shape="936.51,672.95 935.87,672.26 935.73,671.69 936.11,671.23 937.00,670.90"/>
     </edge>
     <edge id=":gneJ20_0" function="internal">
         <lane id=":gneJ20_0_0" index="0" speed="13.89" length="5.31" shape="954.11,621.75 954.78,622.53 955.27,623.02 955.82,623.46 956.67,624.02"/>
@@ -1925,23 +1925,30 @@
         <lane id="gneE89_0" index="0" allow="bicycle" speed="13.89" length="12.94" width="2.00" shape="940.58,700.79 941.39,691.83 940.13,688.10"/>
     </edge>
     <edge id="gneE90.0" from="72" to="gneJ164" priority="1">
-        <lane id="gneE90.0_0" index="0" allow="bicycle" speed="13.89" length="1.04" width="2.00" shape="937.53,673.18 936.52,672.94"/>
+        <lane id="gneE90.0_0" index="0" allow="bicycle" speed="13.89" length="1.05" width="2.00" shape="937.54,673.19 936.51,672.95"/>
     </edge>
     <edge id="gneE90.18" from="gneJ164" to="gneJ94" priority="1">
-        <lane id="gneE90.18_0" index="0" allow="bicycle" speed="13.89" length="13.61" width="2.00" shape="934.89,672.41 922.34,667.15"/>
+        <lane id="gneE90.18_0" index="0" allow="bicycle" speed="13.89" length="13.62" width="2.00" shape="934.90,672.41 922.34,667.15"/>
     </edge>
     <edge id="gneE92" from="gneJ164" to="72" priority="1">
-        <lane id="gneE92_0" index="0" allow="bicycle" speed="13.89" length="1.04" width="2.00" shape="937.00,670.90 938.01,671.14"/>
+        <lane id="gneE92_0" index="0" allow="bicycle" speed="13.89" length="1.05" width="2.00" shape="937.00,670.90 938.02,671.14"/>
     </edge>
     <edge id="gneE93" from="72" to="154" priority="1" shape="950.43,675.14 947.96,663.18 961.69,653.62 985.56,649.06">
         <lane id="gneE93_0" index="0" allow="bicycle" speed="13.89" length="25.93" width="2.00" shape="948.15,661.77 961.27,652.63 971.04,650.77"/>
     </edge>
 
     <tlLogic id="154" type="static" programID="0" offset="0">
-        <phase duration="41" state="rrrrGGGG"/>
-        <phase duration="4" state="rrrryyyy"/>
-        <phase duration="41" state="GGGGrrrr"/>
-        <phase duration="4" state="yyyyrrrr"/>
+        <phase duration="4" state="rrrGrrrr"/>
+        <phase duration="3" state="rrryrrrr"/>
+        <phase duration="2" state="rrrrrrrr"/>
+        <phase duration="9" state="rrrrGrrr"/>
+        <phase duration="29" state="rrrrGGGG"/>
+        <phase duration="8" state="rrrrrGGG"/>
+        <phase duration="5" state="rrrrryyy"/>
+        <phase duration="2" state="rrrrrrrr"/>
+        <phase duration="16" state="GGGGrrrr"/>
+        <phase duration="3" state="yyyGrrrr"/>
+        <phase duration="9" state="rrrGrrrr"/>
     </tlLogic>
     <tlLogic id="39" type="static" programID="0" offset="0">
         <phase duration="2" state="rrrgrrrr"/>
@@ -1973,10 +1980,10 @@
         <phase duration="64" state="ggggrrrr"/>
     </tlLogic>
     <tlLogic id="gneJ21" type="static" programID="0" offset="0">
-        <phase duration="41" state="GGr"/>
-        <phase duration="4" state="yyr"/>
-        <phase duration="41" state="rrG"/>
-        <phase duration="4" state="rry"/>
+        <phase duration="6" state="GGr"/>
+        <phase duration="2" state="yyr"/>
+        <phase duration="20" state="rrG"/>
+        <phase duration="62" state="GGr"/>
     </tlLogic>
     <tlLogic id="gneJ5" type="static" programID="0" offset="0">
         <phase duration="29" state="rrrrOOO"/>
@@ -2300,7 +2307,7 @@
         <request index="6" response="00000000" foes="00011110" cont="0"/>
         <request index="7" response="00000000" foes="00011110" cont="0"/>
     </junction>
-    <junction id="72" type="traffic_light" x="950.43" y="675.14" incLanes="24505980.36_0 24505980.36_1 24505980.36_2 24505980.36_3 gneE92_0 186713418_0 186713418_1 186713418_2 gneE89_0" intLanes=":72_0_0 :72_0_1 :72_0_2 :72_9_0 :72_4_0 :72_5_0 :72_5_1 :72_5_2 :72_8_0" shape="953.31,685.27 960.95,674.62 960.88,672.79 954.59,665.27 949.81,661.83 946.50,661.70 944.70,661.73 937.37,668.28 938.24,670.17 937.30,674.16 933.00,677.39 936.92,686.37 938.77,687.19 941.49,689.00">
+    <junction id="72" type="traffic_light" x="950.43" y="675.14" incLanes="24505980.36_0 24505980.36_1 24505980.36_2 24505980.36_3 gneE92_0 186713418_0 186713418_1 186713418_2 gneE89_0" intLanes=":72_0_0 :72_0_1 :72_0_2 :72_9_0 :72_4_0 :72_5_0 :72_5_1 :72_5_2 :72_8_0" shape="953.31,685.27 960.95,674.62 960.88,672.79 954.59,665.27 949.81,661.83 946.50,661.70 944.70,661.73 937.37,668.28 938.25,670.17 937.31,674.16 933.00,677.39 936.92,686.37 938.77,687.19 941.49,689.00">
         <request index="0" response="011110000" foes="011110000" cont="0"/>
         <request index="1" response="011110000" foes="011110000" cont="0"/>
         <request index="2" response="011110000" foes="011110000" cont="0"/>
@@ -2450,7 +2457,7 @@
         <request index="0" response="00" foes="10" cont="0"/>
         <request index="1" response="01" foes="01" cont="1"/>
     </junction>
-    <junction id="gneJ164" type="priority" x="936.05" y="671.76" incLanes="gneE90.0_0" intLanes=":gneJ164_0_0 :gneJ164_1_0" shape="936.29,673.92 937.23,669.93 935.28,671.49 934.50,673.33">
+    <junction id="gneJ164" type="priority" x="936.05" y="671.76" incLanes="gneE90.0_0" intLanes=":gneJ164_0_0 :gneJ164_1_0" shape="936.29,673.92 937.22,669.93 935.28,671.49 934.51,673.34">
         <request index="0" response="00" foes="00" cont="0"/>
         <request index="1" response="00" foes="00" cont="0"/>
     </junction>
