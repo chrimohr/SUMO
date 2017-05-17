@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Mi 17 Mai 2017 19:48:07 CEST by Netedit Version 0.29.0
+<!-- generated on Mi 17 Mai 2017 19:58:49 CEST by Netedit Version 0.29.0
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netedit.exeConfiguration.xsd">
@@ -562,10 +562,7 @@
         <lane id=":72_0_2" index="2" speed="13.90" length="22.33" shape="958.09,678.61 953.22,674.54 950.43,671.14 947.83,667.52 943.50,662.80"/>
     </edge>
     <edge id=":72_3" function="internal">
-        <lane id=":72_3_0" index="0" speed="13.90" length="1.96" shape="960.02,675.92 958.92,674.87 958.77,674.46"/>
-    </edge>
-    <edge id=":72_9" function="internal">
-        <lane id=":72_9_0" index="0" speed="13.90" length="3.37" shape="958.77,674.46 958.53,673.80 958.84,672.69 959.85,671.56"/>
+        <lane id=":72_3_0" index="0" speed="13.90" length="5.33" shape="960.02,675.92 958.92,674.87 958.53,673.80 958.84,672.69 959.85,671.56"/>
     </edge>
     <edge id=":72_4" function="internal">
         <lane id=":72_4_0" index="0" allow="bicycle" speed="13.89" length="13.81" width="2.00" shape="938.02,671.14 948.15,661.77"/>
@@ -1968,12 +1965,17 @@
         <phase duration="4" state="yyyy"/>
     </tlLogic>
     <tlLogic id="72" type="static" programID="0" offset="0">
-        <phase duration="36" state="rrrGGrrrG"/>
-        <phase duration="4" state="rrryyrrry"/>
-        <phase duration="36" state="ggggrGGGr"/>
-        <phase duration="4" state="ggggryyyr"/>
-        <phase duration="6" state="GGGGrrrrr"/>
-        <phase duration="4" state="yyyyrrrrr"/>
+        <phase duration="4" state="GGGGrrrrG"/>
+        <phase duration="2" state="GGGGrrrrr"/>
+        <phase duration="3" state="YYYYrrrrr"/>
+        <phase duration="3" state="rrrrrrrrr"/>
+        <phase duration="2" state="rrrrGrrrr"/>
+        <phase duration="28" state="rrrrGGGGr"/>
+        <phase duration="1" state="rrrrrGGGr"/>
+        <phase duration="3" state="rrrrrYYYr"/>
+        <phase duration="2" state="rrrrrrrrr"/>
+        <phase duration="2" state="rrrrrrrrG"/>
+        <phase duration="40" state="GGGGrrrrG"/>
     </tlLogic>
     <tlLogic id="81" type="static" programID="0" offset="0">
         <phase duration="4" state="yyyyrrrr"/>
@@ -2311,11 +2313,11 @@
         <request index="6" response="00000000" foes="00011110" cont="0"/>
         <request index="7" response="00000000" foes="00011110" cont="0"/>
     </junction>
-    <junction id="72" type="traffic_light" x="950.43" y="675.14" incLanes="24505980.36_0 24505980.36_1 24505980.36_2 24505980.36_3 gneE92_0 186713418_0 186713418_1 186713418_2 gneE89_0" intLanes=":72_0_0 :72_0_1 :72_0_2 :72_9_0 :72_4_0 :72_5_0 :72_5_1 :72_5_2 :72_8_0" shape="953.31,685.27 960.95,674.62 960.88,672.79 954.59,665.27 949.81,661.83 946.50,661.70 944.70,661.73 937.37,668.28 938.25,670.17 937.31,674.16 933.00,677.39 936.92,686.37 938.77,687.19 941.49,689.00">
+    <junction id="72" type="traffic_light" x="950.43" y="675.14" incLanes="24505980.36_0 24505980.36_1 24505980.36_2 24505980.36_3 gneE92_0 186713418_0 186713418_1 186713418_2 gneE89_0" intLanes=":72_0_0 :72_0_1 :72_0_2 :72_3_0 :72_4_0 :72_5_0 :72_5_1 :72_5_2 :72_8_0" shape="953.31,685.27 960.95,674.62 960.88,672.79 954.59,665.27 949.81,661.83 946.50,661.70 944.70,661.73 937.37,668.28 938.25,670.17 937.31,674.16 933.00,677.39 936.92,686.37 938.77,687.19 941.49,689.00">
         <request index="0" response="011110000" foes="011110000" cont="0"/>
         <request index="1" response="011110000" foes="011110000" cont="0"/>
         <request index="2" response="011110000" foes="011110000" cont="0"/>
-        <request index="3" response="011100000" foes="011100000" cont="1"/>
+        <request index="3" response="011100000" foes="011100000" cont="0"/>
         <request index="4" response="000000000" foes="000000111" cont="0"/>
         <request index="5" response="100000000" foes="100001111" cont="0"/>
         <request index="6" response="100000000" foes="100001111" cont="0"/>
@@ -2607,7 +2609,6 @@
     <junction id=":52_4_0" type="internal" x="1797.31" y="1316.23" incLanes=":52_3_0 363104439_0" intLanes=":52_1_0"/>
     <junction id=":67_8_0" type="internal" x="455.88" y="108.21" incLanes=":67_1_0 -43860438_0 -43860438_1" intLanes=":67_4_0 :67_5_0 :67_6_0 :67_6_1"/>
     <junction id=":67_9_0" type="internal" x="463.86" y="109.70" incLanes=":67_2_0 -43860438_0 -43860438_1" intLanes=":67_3_0 :67_6_0 :67_6_1"/>
-    <junction id=":72_9_0" type="internal" x="958.77" y="674.46" incLanes=":72_3_0 186713418_0 186713418_1 186713418_2" intLanes=":72_5_0 :72_5_1 :72_5_2"/>
     <junction id=":74_4_0" type="internal" x="1913.80" y="1525.46" incLanes=":74_1_0 -23854412_0" intLanes=":74_2_0"/>
     <junction id=":74_5_0" type="internal" x="1913.91" y="1525.51" incLanes=":74_3_0 24232613_0" intLanes=":74_0_0"/>
     <junction id=":92_4_0" type="internal" x="1918.61" y="1461.82" incLanes=":92_3_0 40129888_0" intLanes=":92_1_0"/>
@@ -3314,8 +3315,7 @@
     <connection from=":72_0" to="23774652" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":72_0" to="23774652" fromLane="1" toLane="1" dir="s" state="M"/>
     <connection from=":72_0" to="23774652" fromLane="2" toLane="2" dir="s" state="M"/>
-    <connection from=":72_3" to="186282281" fromLane="0" toLane="2" via=":72_9_0" dir="s" state="m"/>
-    <connection from=":72_9" to="186282281" fromLane="0" toLane="2" dir="s" state="M"/>
+    <connection from=":72_3" to="186282281" fromLane="0" toLane="2" dir="s" state="M"/>
     <connection from=":72_4" to="gneE93" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":72_5" to="186282281" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":72_5" to="186282281" fromLane="1" toLane="1" dir="s" state="M"/>
