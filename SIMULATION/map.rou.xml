@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <routes>
 
-    <vType vClass="car" 	accel="1.0"  decel="1.4"  id="Car"  length="3.0" maxSpeed="10.0" sigma="0.0" />
-    <vType vClass="bicycle" accel="0.1"  decel="2.0"  id="Bike" length="1.0" maxSpeed="5.0" 	sigma="0.0" />
+    <vType vClass="car" 	  accel="2.5"  decel="7.5"  id="Car"  length="4.3" maxSpeed="50.0" sigma="0.0" />
+    <vType vClass="bicycle" accel="1.2"  decel="3.0"  id="Bike" length="1.6" maxSpeed="20.0" 	sigma="0.0" />
 
 	<flows>
   <!--
@@ -16,7 +16,6 @@
 
     <flow id="CA" type="Car"  from="-340675955" to="-142692918" begin="0.00" period="5" color="0,1,0"/>
     <flow id="CB" type="Car"  from="-340675955" to="gneE24.0"   begin="0.00" period="5" color="0,1,0"/>
-
 <!--
     <flow id="Biker"  type="Bike" from="gneE50"  to="gneE54.12" begin="0.00" period="20" color="1,1,1"/>
     <flow id="Biker2" type="Bike" from="gneE50"  to="gneE72"    begin="0.00" period="20" color="1,1,1"/>
