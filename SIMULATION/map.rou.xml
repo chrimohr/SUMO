@@ -8,14 +8,14 @@
   <!--
 		<flow id="flow0" type="Car"  from="142770547" to="340675956" begin="0.00" vehsPerHour="100" color="1,0,0"/>
   -->
-    <flow id="AB" type="Car"  from="142770547"  to="gneE24.0"   begin="0.00" vehsPerHour="890" color="1,0,0"/>
-    <flow id="AC" type="Car"  from="142770547"  to="340675956"  begin="0.00" period="5" color="1,0,0"/>
+    <flow id="AB" type="Car"  from="-gneE43"  to="gneE24.0"   begin="0.00" vehsPerHour="187" color="1,1,0"/>
+    <flow id="AC" type="Car"  from="-gneE43"  to="340675956"  begin="0.00" vehsPerHour="1168" color="1,0,0" departLane="free"/>
 
-    <flow id="BA" type="Car"  from="gneE23.25"  to="-142770547" begin="0.00" vehsPerHour="1140" color="0,0,1"/>
-    <flow id="BC" type="Car"  from="gneE23.25"  to="340675956"  begin="0.00" period="5" color="0,0,1"/>
+    <flow id="BA" type="Car"  from="gneE23.25"  to="-142770547" begin="0.00" vehsPerHour="141" color="0,0,1"/>
+    <flow id="BC" type="Car"  from="gneE23.25"  to="340675956"  begin="0.00" vehsPerHour="15" color="0,0,1"/>
 
-    <flow id="CA" type="Car"  from="-340675955" to="-142692918" begin="0.00" period="5" color="0,1,0"/>
-    <flow id="CB" type="Car"  from="-340675955" to="gneE24.0"   begin="0.00" period="5" color="0,1,0"/>
+    <flow id="CA" type="Car"  from="-340675955" to="-142692918" begin="0.00" vehsPerHour="1331" color="0,1,0"/>
+    <flow id="CB" type="Car"  from="-340675955" to="gneE24.0"   begin="0.00" vehsPerHour="1685" color="0,1,0"/>
 <!--
     <flow id="Biker"  type="Bike" from="gneE50"  to="gneE54.12" begin="0.00" period="20" color="1,1,1"/>
     <flow id="Biker2" type="Bike" from="gneE50"  to="gneE72"    begin="0.00" period="20" color="1,1,1"/>
