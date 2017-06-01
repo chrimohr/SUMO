@@ -25,7 +25,7 @@
 <flow id="B-BC"  type="Bike" from="gneE70.0"  to="gneE72"     begin="0.00"  vehsPerHour="95" color="1,1,1"/>
 
 <flow id="B-CA"  type="Bike" from="gneE50"  to="gneE61"       begin="0.00"  vehsPerHour="472" color="0,1,0"/>
-<flow id="B-CB"  type="Bike" from="gneE50"  to="gneE54.12"    begin="0.00"  vehsPerHour="17" color="0,1,0"/>
+<flow id="B-CB"  type="Bike" from="gneE50"  to="gneE54.12"    begin="0.00"  vehsPerHour="160" color="0,1,0"/>
 
 
 	</flows>
