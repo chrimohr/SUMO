@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <routes>
 
-    <vType vClass="car" 	  accel="2.5"  decel="7.5"  id="Car"  length="4.3" maxSpeed="50.0" sigma="0.0" />
-    <vType vClass="bicycle" accel="1.2"  decel="3.0"  id="Bike" length="1.6" maxSpeed="20.0" 	sigma="0.0" />
+    <vType vClass="car" 	  accel="2.5"  decel="7.5"  id="Car"  length="4.3" maxSpeed="50.0"  sigma="0.6" />
+    <vType vClass="bicycle" accel="1.2"  decel="3.0"  id="Bike" length="1.6" maxSpeed="20.0" 	sigma="1.0" />
 
 	<flows>
   <!--
