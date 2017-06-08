@@ -16,4 +16,9 @@
         <gui-settings-file value="map.settings.xml"/>
     </gui_only>
 
+    <output>
+        <emission-output value="/home/chris/Documents/GIT/SUMO/output/emission-output.xml" />
+        <vtk-output value="/home/chris/Documents/GIT/SUMO/output/VTK/vtk"/>
+    </output>
+
 </configuration>
