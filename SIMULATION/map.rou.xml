@@ -23,24 +23,24 @@
     <flow id="CB" type="Car"  from="-340675955" to="gneE24.0"   begin="0.00" vehsPerHour="1685" color="0,1,0"/>
 
   <!-- BIKE -->
-    <flow id="B-AB"  type="Bike" from="gneE66.22"  to="gneE54.12" begin="0.00"  vehsPerHour="1112" color="1,1,0"/>
-    <flow id="B-AC"  type="Bike" from="gneE66.22"  to="gneE72"    begin="0.00"  vehsPerHour="195" color="1,0,0"/>
+    <flow id="B-AB"  type="Bike" from="gneE66.22"  to="gneE54.12" begin="0.00"  vehsPerHour="112" color="1,1,0"/>
+    <flow id="B-AC"  type="Bike" from="gneE66.22"  to="gneE72"    begin="0.00"  vehsPerHour="95" color="1,0,0"/>
 
-    <flow id="B-BA"  type="Bike" from="gneE70.0"  to="gneE61"     begin="0.00"  vehsPerHour="111" color="0,0,1"/>
-    <flow id="B-BC"  type="Bike" from="gneE70.0"  to="gneE72"     begin="0.00"  vehsPerHour="166" color="1,1,1"/>
+    <flow id="B-BA"  type="Bike" from="gneE70.0"  to="gneE61"     begin="0.00"  vehsPerHour="11" color="0,0,1"/>
+    <flow id="B-BC"  type="Bike" from="gneE70.0"  to="gneE72"     begin="0.00"  vehsPerHour="66" color="1,1,1"/>
 
-    <flow id="B-CA"  type="Bike" from="gneE50"  to="gneE61"       begin="0.00"  vehsPerHour="1330" color="0,1,0"/>
-    <flow id="B-CB"  type="Bike" from="gneE50"  to="gneE54.12"    begin="0.00"  vehsPerHour="1112" color="0,1,0"/>
+    <flow id="B-CA"  type="Bike" from="gneE50"  to="gneE61"       begin="0.00"  vehsPerHour="330" color="0,1,0"/>
+    <flow id="B-CB"  type="Bike" from="gneE50"  to="gneE54.12"    begin="0.00"  vehsPerHour="112" color="0,1,0"/>
 
   <!-- Slow BIKE -->
-    <flow id="B-AB-S"  type="Bike_slow" from="gneE66.22" to="gneE54.12"  begin="0.00"  vehsPerHour="148" color="1,1,0"/>
-    <flow id="B-AC-S"  type="Bike_slow" from="gneE66.22" to="gneE72"     begin="0.00"  vehsPerHour="142" color="1,0,0"/>
+    <flow id="B-AB-S"  type="Bike_slow" from="gneE66.22" to="gneE54.12"  begin="0.00"  vehsPerHour="48" color="1,1,0"/>
+    <flow id="B-AC-S"  type="Bike_slow" from="gneE66.22" to="gneE72"     begin="0.00"  vehsPerHour="42" color="1,0,0"/>
 
-    <flow id="B-BA-S"  type="Bike_slow" from="gneE70.0"  to="gneE61"     begin="0.00"  vehsPerHour="16" color="0,0,1"/>
-    <flow id="B-BC-S"  type="Bike_slow" from="gneE70.0"  to="gneE72"     begin="0.00"  vehsPerHour="129" color="1,1,1"/>
+    <flow id="B-BA-S"  type="Bike_slow" from="gneE70.0"  to="gneE61"     begin="0.00"  vehsPerHour="6" color="0,0,1"/>
+    <flow id="B-BC-S"  type="Bike_slow" from="gneE70.0"  to="gneE72"     begin="0.00"  vehsPerHour="29" color="1,1,1"/>
 
-    <flow id="B-CA-S"  type="Bike_slow" from="gneE50"    to="gneE61"     begin="0.00"  vehsPerHour="1142" color="0,1,0"/>
-    <flow id="B-CB-S"  type="Bike_slow" from="gneE50"    to="gneE54.12"  begin="0.00"  vehsPerHour="148" color="0,1,0"/>
+    <flow id="B-CA-S"  type="Bike_slow" from="gneE50"    to="gneE61"     begin="0.00"  vehsPerHour="142" color="0,1,0"/>
+    <flow id="B-CB-S"  type="Bike_slow" from="gneE50"    to="gneE54.12"  begin="0.00"  vehsPerHour="48" color="0,1,0"/>
 
 	</flows>
 </routes>
