@@ -3,7 +3,7 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="map.net.xml"/>
+        <net-file value="map-optimierung.net.xml"/>
         <route-files value="map.rou.xml"/>
     </input>
 
@@ -13,7 +13,7 @@
     </time>
 
     <gui_only>
-        <gui-settings-file value="map-optimierung.settings.xml"/>
+        <gui-settings-file value="map.settings.xml"/>
     </gui_only>
 
     <output>
