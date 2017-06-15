@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="map.net.xml"/>
+        <route-files value="map.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="10000"/>
+    </time>
+
+    <gui_only>
+        <gui-settings-file value="map-optimierung.settings.xml"/>
+    </gui_only>
+
+    <output>
+        <!--
+        <emission-output value="/home/chris/Documents/GIT/SUMO/output/emission-output.xml" />
+        <vtk-output value="/home/chris/Documents/GIT/SUMO/output/VTK/vtk"/>
+        -->
+        <summary value="/home/chris/Documents/GIT/SUMO/output/output-optimierung.xml"/>
+    </output>
+
+</configuration>
