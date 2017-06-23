@@ -623,4 +623,9 @@
     <step time="593.00" loaded="925" inserted="648" running="173" waiting="277" ended="475" meanWaitingTime="57.56" meanTravelTime="105.43" duration="1497593304377"/>
     <step time="594.00" loaded="927" inserted="649" running="174" waiting="278" ended="475" meanWaitingTime="57.47" meanTravelTime="105.43" duration="1497593304388"/>
     <step time="595.00" loaded="928" inserted="649" running="173" waiting="279" ended="476" meanWaitingTime="57.47" meanTravelTime="105.50" duration="1497593304391"/>
-    <step time="596.00" loaded="929" inserted="650" running="173" waiting
+    <step time="596.00" loaded="929" inserted="650" running="173" waiting="279" ended="477" meanWaitingTime="57.89" meanTravelTime="105.45" duration="1497593304398"/>
+    <step time="597.00" loaded="931" inserted="652" running="174" waiting="279" ended="478" meanWaitingTime="57.72" meanTravelTime="105.46" duration="1497593304405"/>
+    <step time="598.00" loaded="932" inserted="652" running="173" waiting="280" ended="479" meanWaitingTime="57.72" meanTravelTime="105.41" duration="1497593304410"/>
+    <step time="599.00" loaded="935" inserted="656" running="177" waiting="279" ended="479" meanWaitingTime="57.88" meanTravelTime="105.41" duration="1497593304417"/>
+    <step time="600.00" loaded="941" inserted="657" running="177" waiting="284" ended="480" meanWaitingTime="57.79" meanTravelTime="105.38" duration="1497593304423"/>
+</summary>
